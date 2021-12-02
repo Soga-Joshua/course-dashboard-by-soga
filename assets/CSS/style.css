@@ -612,6 +612,8 @@ margin-bottom: 0px
 }
 .dashboard .main .mainwrapper .bannersection .textandbutton .learnmorebutton button:hover{
     background-color: #00838F;
+    cursor: pointer;
+    color: white;
 }
    
 }
