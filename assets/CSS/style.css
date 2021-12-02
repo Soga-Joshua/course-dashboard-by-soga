@@ -314,7 +314,7 @@ line-height: 10px;
     cursor: pointer;
     color: white;
 }
-@media all and (max-device-width: 480px) {
+@media all and (max-width: 480px) {
     .dashboard{
         margin: 0 auto;
     }
