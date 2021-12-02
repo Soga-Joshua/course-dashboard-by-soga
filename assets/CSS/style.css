@@ -272,7 +272,7 @@ Main section
 Banner section
 **********************/
 .dashboard .main .mainwrapper .bannersection{
-    height: 200px;
+    height: 210px;
     width: 80vw;
     background-color: black;
     color: whitesmoke;
@@ -280,7 +280,7 @@ Banner section
     justify-content: space-between;
     margin-top: 30px;
     border-radius: 10px;
-    padding: 10px 10px 30px 60px
+    padding: 0px 10px 30px 40px
     ;
 }
 .dashboard .main .mainwrapper .bannersection .textandbutton{
@@ -295,14 +295,14 @@ Banner section
 }
 .dashboard .main .mainwrapper .bannersection .textandbutton h1{
 font-size: 40px;
-line-height: 10px;
+line-height: 40px;
 }
 .dashboard .main .mainwrapper .bannersection .textandbutton .learnmorebutton button{
     width: 120px;
     height: 38px;
     border: none;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     color: #9E4E73;
     font-weight: 700;
 }
