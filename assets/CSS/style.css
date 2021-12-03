@@ -316,7 +316,164 @@ line-height: 40px;
     cursor: pointer;
     color: white;
 }
-@media all and (max-width: 480px) {
+@media only screen and (min-width: 500px) and (max-width: 768px){
+  .dashboard .sidenav{
+      padding: 15px 0px;
+      height: 1024px;
+  }
+  .dashboard .main{
+      background-color: #EDEDED;
+      max-width: 75vw;
+  }
+  .dashboard .main .header{
+      height: 60px;
+      width:  75vw;
+      display: block;
+  }
+  .dashboard .main .header .search{
+margin-left: 30px;
+margin-top: 20px;
+  }
+  .dashboard .main .header .search .icons{
+margin-left:0;
+margin-right: 0px;
+  }
+  .dashboard .main .header .search .icons .bell{
+margin-left:150px;
+  }
+  .dashboard .main .mainwrapper{
+      padding: 0px;
+  }
+  .dashboard .main .charts{
+      margin-top: 70px;
+      width: 75vw;
+      display:block;
+  height: 550px
+  ;
+  }
+  .dashboard .main .charts .doughnutsection1{
+     width: 65vw;
+     margin-left: 33px;
+     padding-left: 100px;
+     padding-right: 100px;
+     margin-top: 90px;
+  margin-bottom: 30px;
+  }
+  .dashboard .main .charts .doughnutsection1 .daily{ font-size: 20px;
+      margin-left:90px;
+     
+  }
+  .dashboard .main .charts .doughnutsection2{
+      width: 65vw;
+     margin-left: 33px;
+     padding-left: 100px;
+     padding-right: 100px;
+     margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  .dashboard .main .charts .doughnutsection2 .Monthly{ font-size: 20px;
+      margin-left:90px;
+     
+  }
+  .dashboard .main .charts .doughnutsection3{
+      width: 65vw;
+      margin-left: 33px;
+     padding-left: 100px;
+     padding-right: 100px;
+     margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  .dashboard .main .charts .doughnutsection3 .Yearly{ font-size: 20px;
+      margin-left:90px;
+     
+  }
+  .dashboard .main .tablewrapper table{
+      width: 65vw;
+      height: 550px;
+      border: 1px solid #CCC;
+      border-collapse: collapse;
+      background-color: black;
+      border-radius: 5px;
+      border-spacing: 0px;
+      padding: 0px 0px 0px 0px;
+    
+  }
+  
+  .dashboard .main .tablewrapper table thead{
+      height: 40px;
+      border-radius: 2px;
+      font-size: 20px;
+      
+  }
+  .dashboard .main .tablewrapper table tbody{
+      background-color: #F5F5F5;
+      font-size: 15px;
+      font-weight: 400;
+  /* vertical-align: middle; */
+  border-color: white;
+  }
+  .dashboard .main .tablewrapper table tr
+   td{ padding: 0px 5px 0px 5px;
+      line-height: 20px;
+      
+  }
+  .dashboard .main .tablewrapper table thead tr td{
+      color: white;
+  }
+  .tablewrapper{
+      background-color: #F5F5F5;
+      border-radius: 10px;
+      height: 560px;
+      width: 65vw;
+margin-left: 33px;
+}
+.dashboard .main .mainwrapper .bannersection{
+  height: 200px;
+  width: 65vw;
+  margin-left: 33px;
+ 
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px
+  ;
+}
+.dashboard .main .mainwrapper .bannersection .textandbutton{
+  padding: 0px 0px 0px 20px
+  ;
+  width: 350px;
+  height: 200px;
+}
+.dashboard .main .mainwrapper .bannersection .textandbutton p{
+  line-height: 10px;
+  font-size: 10px;
+}
+.dashboard .main .mainwrapper .bannersection .textandbutton .secondp{
+  margin-top: -7px;
+}
+.dashboard .main .mainwrapper .bannersection .textandbutton h1{
+font-size: 30px;
+line-height: 30px;
+margin-bottom: 0px
+;
+}
+.dashboard .main .mainwrapper .bannersection .textandbutton .learnmorebutton button{
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 60px;
+  color: #9E4E73;
+  font-weight: 500;
+  font-size: 10px;
+}
+.dashboard .main .mainwrapper .bannersection img{
+  height: 220px;
+  width: 270px;
+  margin-left: -60px;
+  position: relative;
+  top: -23px;
+}
+}
+@media only screen and (max-width: 480px) {
     .dashboard{
         margin: 0 auto;
     }
